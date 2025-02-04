@@ -1,2 +1,30 @@
 NOTES_ARE_IN_OBSIDIAN
 class_slides/week1_slides-1.pdf
+
+
+# Ignore Jupyter Notebook checkpoints  
+.ipynb_checkpoints/  
+
+# Ignore output and execution state in notebooks  
+*.ipynb~  
+
+# Ignore virtual environments  
+venv/  
+.env/  
+
+# Ignore Python bytecode  
+__pycache__/  
+*.pyc  
+*.pyo  
+*.pyd  
+
+# Ignore Jupyter Notebook metadata backups  
+*.ipynb_bak  
+
+# Ignore hidden files and directories  
+.DS_Store  
+Thumbs.db  
+
+# Ignore logs and temporary files  
+*.log  
+*.tmp  
